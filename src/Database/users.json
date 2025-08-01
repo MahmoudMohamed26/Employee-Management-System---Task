@@ -1,0 +1,40 @@
+
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "email": "john@example.com",
+      "password": "password123",
+      "role": "manager"
+    },
+    {
+      "id": 2,
+      "username": "jane_smith",
+      "email": "jane@example.com",
+      "password": "password456",
+      "role": "employee"
+    },
+    {
+      "id": 3,
+      "username": "ahmed_ali",
+      "email": "ahmed@example.com",
+      "password": "password789",
+      "role": "employee"
+    },
+    {
+      "id": 4,
+      "username": "sara_mohamed",
+      "email": "sara@example.com",
+      "password": "password321",
+      "role": "employee"
+    },
+    {
+      "id": 5,
+      "username": "admin_user",
+      "email": "admin@ems.com",
+      "password": "admin123",
+      "role": "admin"
+    }
+  ]
+}

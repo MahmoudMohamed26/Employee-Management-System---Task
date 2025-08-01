@@ -1,0 +1,270 @@
+{
+  "pagination": {
+    "next": "Next",
+    "previous": "Previous"
+  },
+  "forgetPassword": {
+    "title": "Forgot Password",
+    "subtitle": "Enter your email to reset your password",
+    "email": "Email:",
+    "emailPlaceholder": "example{'@'}gmail.com",
+    "submitButton": "Reset Password",
+    "successMessage": "A password reset link has been sent to your email.",
+    "backToLogin": "Back to Sign In"
+  },
+  "login": {
+    "title": "Sign In",
+    "email": "Email:",
+    "password": "Password:",
+    "emailPlaceholder": "example{'@'}gmail.com",
+    "passwordPlaceholder": "************",
+    "forgotPassword": "Forgot Password?",
+    "loginButton": "Sign In",
+    "loading": "Processing...",
+    "success": "Login successful",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Invalid email",
+    "passwordRequired": "Password is required",
+    "loginError": "Error in email or password"
+  },
+  "dashboard": {
+    "title": "Employee System",
+    "profile": "Profile",
+    "logout": "Logout",
+    "companies": "Companies",
+    "departments": "Departments",
+    "employees": "Employees",
+    "audit-log": "Audit Log",
+    "search": "Search...",
+    "filter": "Filter",
+    "add": "Add New",
+    "edit": "Edit",
+    "delete": "Delete",
+    "view": "View",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "actions": "Actions",
+    "status": "Status",
+    "active": "Active",
+    "inactive": "Inactive",
+    "created": "Created",
+    "updated": "Updated",
+    "deleted": "Deleted successfully",
+    "error": "An error occurred",
+    "noData": "No data available",
+    "loading": "Loading...",
+    "showingResults": "Showing {start} to {end} of {total} results",
+    "itemsPerPage": "Items per page"
+  },
+  "companies": {
+    "title": "Companies Management",
+    "add": "Add Company",
+    "addTitle": "Add New Company",
+    "editTitle": "Edit Company",
+    "name": "Company Name",
+    "nameAr": "Company Name (Arabic)",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "address": "Address",
+    "addressAr": "Address (Arabic)",
+    "parentCompany": "Parent Company",
+    "createdAt": "Created Date",
+    "search": "Search companies...",
+    "filter": {
+      "all": "All Statuses",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "table": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "parentCompany": "Parent Company",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "form": {
+      "selectParent": "Select Parent Company",
+      "noParent": "No Parent Company",
+      "namePlaceholder": "Enter company name",
+      "nameArPlaceholder": "Enter company name (Arabic)",
+      "emailPlaceholder": "company{'@'}example.com",
+      "phonePlaceholder": "+1-555-0123",
+      "addressPlaceholder": "Enter company address",
+      "addressArPlaceholder": "Enter company address (Arabic)"
+    },
+    "status": {
+      "status": "Status",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "actions": {
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "empty": {
+      "title": "No Companies Found",
+      "description": "Get started by adding a new company."
+    },
+    "deleteConfirm": "Delete",
+    "deleteCancel": "Cancel",
+    "confirmDelete": "Are you sure you want to delete this company?",
+    "deleteWarning": "This action cannot be undone."
+  },
+  "departments": {
+    "title": "Departments Management",
+    "add": "Add Department",
+    "addTitle": "Add New Department",
+    "editTitle": "Edit Department",
+    "name": "Department Name",
+    "nameAr": "Department Name (Arabic)",
+    "description": "Description",
+    "descriptionAr": "Description (Arabic)",
+    "company": "Company",
+    "manager": "Manager",
+    "budget": "Budget",
+    "modal": {
+      "addTitle": "test"
+    },
+    "createdAt": "Created Date",
+    "search": "Search departments...",
+    "filter": {
+      "company": "All Companies",
+      "status": "All Statuses"
+    },
+    "table": {
+      "name": "Name",
+      "company": "Company",
+      "manager": "Manager",
+      "budget": "Budget",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "form": {
+      "selectCompany": "Select Company",
+      "selectManager": "Select Manager",
+      "namePlaceholder": "Enter department name",
+      "nameArPlaceholder": "Enter department name (Arabic)",
+      "descriptionPlaceholder": "Enter department description",
+      "descriptionArPlaceholder": "Enter department description (Arabic)",
+      "budgetPlaceholder": "0.00"
+    },
+    "status": {
+      "status": "Status",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "actions": {
+      "edit": "Edit",
+      "delete": "Delete",
+      "cancel": "Cancel"
+    },
+    "empty": {
+      "title": "No Departments Found",
+      "description": "Get started by adding a new department."
+    },
+    "deleteConfirm": "Delete",
+    "deleteCancel": "Cancel",
+    "confirmDelete": "Are you sure you want to delete this department?",
+    "deleteWarning": "This action cannot be undone."
+  },
+  "employees": {
+    "title": "Employees Management",
+    "add": "Add Employee",
+    "addTitle": "Add New Employee",
+    "editTitle": "Edit Employee",
+    "search": "Search employees...",
+    "fullName": "Full Name",
+    "email": "Email",
+    "position": "Position",
+    "department": "Department",
+    "salary": "Salary",
+    "table": {
+      "fullName": "Full Name",
+      "email": "Email",
+      "position": "Position",
+      "department": "Department",
+      "salary": "Salary",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "form": {
+      "firstName": "First Name",
+      "firstNameAr": "First Name (Arabic)",
+      "lastName": "Last Name",
+      "lastNameAr": "Last Name (Arabic)",
+      "email": "Email",
+      "phone": "Phone",
+      "position": "Position",
+      "positionAr": "Position (Arabic)",
+      "company": "Company",
+      "department": "Department",
+      "salary": "Salary",
+      "hireDate": "Hire Date",
+      "birthDate": "Birth Date",
+      "address": "Address",
+      "addressAr": "Address (Arabic)",
+      "gender": "Gender",
+      "status": "Status",
+      "selectCompany": "Select a company",
+      "selectDepartment": "Select a department",
+      "selectGender": "Select gender",
+      "genders": {
+        "male": "Male",
+        "female": "Female",
+        "other": "Other"
+      },
+      "firstNamePlaceholder": "Enter first name",
+      "lastNamePlaceholder": "Enter last name",
+      "emailPlaceholder": "employee{'@'}example.com",
+      "phonePlaceholder": "+1-555-0123",
+      "positionPlaceholder": "e.g., Software Engineer",
+      "positionArPlaceholder": "Enter position (Arabic)",
+      "salaryPlaceholder": "e.g., 50000",
+      "addressPlaceholder": "Enter address",
+      "addressArPlaceholder": "Enter address (Arabic)",
+      "personalInfo": "Personal Information",
+      "contactInfo": "Contact Information",
+      "workInfo": "Work Information"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "on_leave": "On Leave"
+    },
+    "empty": {
+      "title": "No Employees Found",
+      "description": "Get started by adding a new employee."
+    },
+    "confirmDeleteTitle": "Delete Employee",
+    "confirmDelete": "Are you sure you want to delete this employee?",
+    "deleteWarning": "This action cannot be undone."
+  },
+  "validation": {
+    "required": "This field is required",
+    "email": "Please enter a valid email address",
+    "phone": "Please enter a valid phone number",
+    "number": "Please enter a valid number",
+    "date": "Please enter a valid date"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error"
+  },
+  "profile": {
+    "title": "Profile",
+    "username": "Username",
+    "email": "Email",
+    "save": "Save Changes",
+    "updateSuccess": "Profile updated successfully!"
+  },
+  "auditLog": {
+    "title": "Audit Log",
+    "action": "Action",
+    "user": "User",
+    "details": "Details",
+    "timestamp": "Timestamp",
+    "noLogs": "No audit logs found."
+  }
+}
