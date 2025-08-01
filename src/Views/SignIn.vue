@@ -114,7 +114,6 @@
             </Form>
 
             <div
-              v-if="showDebugInfo"
               class="mt-6 p-4 bg-gray-100 rounded text-xs"
             >
               <h3 class="font-bold mb-2">Test Accounts:</h3>

@@ -1,5 +1,64 @@
-# Vue 3 + Vite
+# HR Dashboard — Technical Task
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This project is a frontend HR management dashboard built using **Vue.js**, **TailwindCSS**, and **Vite**. It supports full CRUD operations, authentication, role-based access control (RBAC), multilingual support (English & Arabic), and a responsive, accessible UI.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+---
+
+## 🚀 Features
+
+### ✅ Authentication & Access
+- **Login / Logout flow**
+- **Forget password UI**
+- **User session saved to localStorage**
+- **Role-based access control** (RBAC)
+
+### 🧑‍💼 User Management
+- **Companies** (with parent-child company structure)
+- **Departments**
+- **Employees**
+- Inline profile editing
+- Search, filter, and sort
+- Responsive design for mobile/tablet/desktop
+
+### 🌍 Internationalization (i18n)
+- English & Arabic language support
+- RTL support for Arabic
+- Live language switching
+
+### 📋 Additional Features
+- Audit logs (e.g., actions like edits and deletions)
+- Search & filtering on all major list views
+- Parent company drill-down view
+- Confirmation modals for destructive actions
+- Fully responsive UI
+
+---
+
+## 🛠 Tech Stack
+
+| Tool         | Description                          |
+|--------------|--------------------------------------|
+| **Vue 3**     | Frontend framework (Composition API) |
+| **Vite**     | Fast build tool for Vue              |
+| **TailwindCSS** | Utility-first CSS framework         |
+| **Pinia**    | State management                     |
+| **Vue Router** | Client-side routing                 |
+| **vue-i18n** | Internationalization (EN/AR support) |
+| **LocalStorage** | Session persistence               |
+
+---
+
+## 📦 Project Setup
+
+```bash
+# Install dependencies
+npm install
+
+# Run in development
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
